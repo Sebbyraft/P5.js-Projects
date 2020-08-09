@@ -7,7 +7,7 @@ The player can control Snake using the arrows and can pause the game by pressing
 
 ## Teleporting 
 
-By the default the teleporting is not allowed.
+By default the teleporting is not allowed.
 ![](preview_1.png)
 
 The teleporting can be allowed in the code by changing the flag: 
