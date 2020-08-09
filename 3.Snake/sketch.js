@@ -12,10 +12,13 @@ let food;
 let grid = false;
 
 // Flag for wall teleporting
-let tp = false;
+let tp = true;
 
 // Frame rate
 let fr = 5;
+
+// Pause flag
+let pause = false;
 
 function setup() {
     // Create a canvas and set the frame rate
@@ -82,6 +85,14 @@ function keyPressed(){
         player.setDirection(-1, 0);
     } else if (key == "ArrowRight"){
         player.setDirection( 1, 0);
+    } else {
+        if(pause){
+            frameRate(fr);
+            pause = false;
+        } else {
+            frameRate(0);
+            pause = true;
+        }
     }
 }
 
