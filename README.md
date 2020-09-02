@@ -12,3 +12,4 @@ For more projects and to learn more I suggest to follow [The Coding Train](https
 - [ ] 1.Satellite_Orbit_Test_Version_1: open project
 - [X] 2.Connect_Four 
 - [X] 3.Snake
+- [X] 4.Webcam pixels manipulation
