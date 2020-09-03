@@ -13,3 +13,4 @@ For more projects and to learn more I suggest to follow [The Coding Train](https
 - [X] 2.Connect_Four 
 - [X] 3.Snake
 - [X] 4.Webcam pixels manipulation
+- [X] 5.Sine Wave Colorizer
